@@ -1,2 +1,3 @@
 # SSH
 一个简单的spring+springMVC+hibernate的JavaWeb项目,因为时间原因还没有进行网页的页面实现,但是在网址中输入相应的参数可以对MYsql数据库进行操作
+使用的是Maven项目进行创建的.

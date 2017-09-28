@@ -1,0 +1,119 @@
+
+#scrollUp {
+	background:
+		url("http://weike.jingjichang.com.cn/lms/assets/js/jquery-plugins/top.png")
+		no-repeat;
+	bottom: 20px;
+	right: 20px;
+	height: 38px;
+	width: 38px;
+}
+	sidebar-nav {
+	font-size: 13px;
+	font-family: "微软雅黑", Helvetica, STheiti, 宋体, Arial, Tahoma, sans-serif,
+		serif;
+	}
+  
+.invisible {
+	visibility: visible;
+}
+
+.form label {
+	display: inline;
+	vertical-align: middle;
+	padding: 6px;
+}
+
+.form legend {
+	margin-bottom: 0px;
+}
+
+.form-horizontal .control-group {
+	margin-bottom: 10px;
+}
+
+.table th, .table td {
+	line-height: 22px;
+}
+
+.table thead th {
+	font-weight: bold;
+	background-color: #EEE;
+}
+
+.help-block, .help-inline {
+	color: #AAA;
+}
+
+.nav-tabs>.active>a {
+	background-color: #3579A6;
+	border-color: #127AC3;
+	color: #FFFFFF;
+}
+
+.nav-tabs>.active>a:hover {
+	background-color: #3579A6;
+	color: #FFFFFF;
+}
+
+.nav-tabs {
+	border-bottom: 2px solid #3579A6
+}
+ 
+.form textarea, .form input[type="text"], .form input[type="password"] {
+	margin-top: 10px;
+}
+
+.form input[type="file"], .form input[type="image"], .form input[type="submit"],
+	.form input[type="reset"], .form input[type="button"], .form button {
+	margin-top: 10px;
+}
+
+.td1 {
+	width: 20%;
+	font-weight: bold;
+}
+
+.td2 {
+	width: 30%;
+}
+
+.typocn h3 {
+	font-weigth: bold;
+}
+
+.panel-title {
+	text-align: left;
+}
+
+.table {
+	margin-bottom: 0
+}
+
+.table td {
+	border-top-width: 0px;
+	border-bottom: 1px solid #DDD;
+}
+
+.table td .td1 {
+	text-align: right;
+}
+
+.box-list li {
+	float: left;
+	width: 400px;
+	min-height: 340px;
+	padding-right: 30px
+}
+
+.table a:link, a:visited {
+	color: #FFF;
+}
+
+a:hover {
+	color: #FFF;
+}
+
+.panel-default>.panel-heading {
+	padding: 6px 0 6px 10px;
+}

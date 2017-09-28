@@ -1,0 +1,230 @@
+#header_wrapper header:after,#removal_suggestions:after {
+	content: " ";
+	display: table;
+	clear: both
+}
+*, *:before, *:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0
+}
+body {
+	background-color: #EAEAEA;
+	position: relative
+}
+body {
+	font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 12px;
+	line-height: 1.2;
+	color: #505961;
+	text-rendering: optimizeLegibility;
+	-moz-font-feature-settings: "liga=1, dlig=1";
+	-ms-font-feature-settings: "liga", "dlig";
+	-o-font-feature-settings: "liga", "dlig";
+	-webkit-font-feature-settings: "liga", "dlig";
+	font-feature-settings: "liga", "dlig"
+}
+a {
+	color: #464E54;
+	text-decoration: none;
+	line-height: inherit
+}
+a:focus {
+	color: #3a4146
+}
+#header_wrapper {
+	background-color: #fff;
+	border-bottom: 1px solid #d8d8d8;
+	padding-top: 0px;
+	padding-bottom: 0px
+}
+
+ 
+
+@media only screen and (max-width: 568px) {
+	#header_wrapper {
+		padding-top: 20px;
+		padding-bottom: 27px
+	}
+}
+
+#logo, nav#primary {
+	float: left
+}
+
+#logo {
+	width: 136px
+}
+
+#logo a {
+	margin-left: 73px;
+	text-indent: -999em;
+	display: block;
+	height: 84px;
+	width: 84px;
+	background-image:
+		url(https://d1z5poly3sl5ye.cloudfront.net/assets/sprites-s520eb4936f-88877b51ab1ba7e12aeb699d661c4fdfe9d8ece71a5bbb43138c87aadbaa14dc.png);
+	background-position: 0 -190px;
+	background-repeat: no-repeat;
+	position: relative
+}
+
+@media ( -webkit-min-device-pixel-ratio : 1.5) , ( min--moz-device-pixel-ratio :
+		1.5) , ( -o-min-device-pixel-ratio : 3 / 2) , ( min-device-pixel-ratio
+	: 1.5) {
+	#logo a {
+		background-image:
+			url(https://d1z5poly3sl5ye.cloudfront.net/assets/sprites-retina-s5bbae007ef-d4ef0c7f54cabc80359bbe2dca4c655f25691a168a134ed0c94bd661f7f02dcd.png);
+		background-position: 0 -192px;
+		-moz-background-size: 84px auto;
+		-o-background-size: 84px auto;
+		-webkit-background-size: 84px auto;
+		background-size: 84px auto
+	}
+}
+
+ 
+@media only screen and (max-width: 568px) {
+	#logo {
+		width: 100%
+	}
+	#logo a {
+		margin: 0 auto
+	}
+}
+
+nav#primary {
+	position: absolute;
+	margin-left: 75%; 
+	height: 50px;
+	width:200px;
+}
+
+nav#primary ul {
+	list-style: none;
+	margin: 0;
+	padding: 0
+}
+
+nav#primary ul li {
+	float: left
+}
+
+@media only screen and (max-width: 568px) {
+	nav#primary {
+		position: relative;
+		top: 0px;
+		margin: 0 auto;
+		width: 100%
+	}
+	nav#primary ul {
+		text-align: center
+	}
+	nav#primary ul li {
+		display: inline;
+		float: none !important
+	}
+}
+
+nav#primary ul.sections { 
+	height: 21px;
+	margin-bottom: 8px
+}
+
+nav#primary ul.sections li {
+	margin-right: 19px;
+	display: inline-block
+} 
+
+nav#primary ul.sections li a {
+	color: #959a9e;
+	display: block;
+	position: relative;
+	bottom: 1px;
+	z-index: 100
+}
+
+nav#primary ul.sections li a span {
+	display: block;
+	padding-bottom: 7px;
+	border-bottom: 1px solid #EAEAEA;
+	-moz-transition: border-color 0.05s;
+	-o-transition: border-color 0.05s;
+	-webkit-transition: border-color 0.05s;
+	transition: border-color 0.05s
+}
+
+nav#primary ul.sections li a:hover {
+	color: #464E54
+}
+
+nav#primary ul.sections li a:hover span {
+	border-bottom: 1px solid #959a9e
+}
+
+  
+
+nav#primary ul.sections li.active a span {
+	border-bottom: 1px solid #959a9e
+}
+
+nav#primary.has-filters {
+	top: 42px
+}
+
+@media only screen and (max-width: 568px) {
+	nav#primary.has-filters {
+		height: 21px;
+		top: 22px
+	}
+}
+
+nav#primary ul.filters li.filter {
+	display: none
+}
+
+nav#primary ul.filters li.filter ul li {
+	display: inline-block;
+	margin-right: 19px;
+	margin-bottom: 6px
+}
+
+@media only screen and (max-width: 568px) {
+	nav#primary ul.filters li.filter ul li {
+		margin-right: 1px;
+		margin-left: 1px
+	}
+}
+
+nav#primary ul.filters li.filter ul li:last-child {
+	margin-right: 0
+}
+
+nav#primary ul.filters li.filter ul li a {
+	padding-right: 10px;
+	display: block;
+	position: relative;
+	color: #959a9e
+}
+ 
+ 
+ 
+nav#primary ul.filters li.filter ul li a:hover {
+	color: #000
+}
+ 
+
+nav#primary ul.filters li.filter ul li a:active span {
+	top: 6px
+}
+
+nav#primary ul.filters li.filter ul li a.active {
+	color: #000
+}
+nav#primary ul.filters.websites li.websites.filter {
+	display: block
+}
